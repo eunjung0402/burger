@@ -1,0 +1,22 @@
+button{font-family: 'Noto Sans KR', sans-serif;}
+
+header{position: relative;}
+header .x{position: absolute;top: 26px; right: 17px; font-size: 30px; color: #81C147;}
+
+section{padding-top: 113px; width: 249px; margin: auto;}
+section h1{padding-bottom: 38px;}
+section form{}
+section form input{display: block; width: 100%; height: 36px; border: 2px solid #81C147; padding-left: 40px; background-repeat: no-repeat; background-position:  10px center;}
+#userId{ background-image: url(../images/login/id.svg); margin-bottom: 15px;}
+#userPw{ background-image: url(../images/login/pw.svg);}
+section form button{width: 120px; height: 36px; background-color: #81C147; margin-top: 15px; color: #fff; font-size: 16px; font-weight: 300; letter-spacing: 1px; margin-bottom: 13px;}
+section form p{margin-left: 20px; margin-bottom: 39px;}
+section form p span{font-size: 13px; color: #81C147;padding-right: 14px; border-right: 1px solid #81C147;}
+section form p span:last-child{padding-left: 14px; border: 0;}
+
+section .sns2{width: 100%; height: 110px; border: 2px solid #81C147; padding-top: 9px;}
+section .sns2 h2{ color: #81C147; font-size: 16px; font-weight: 300;}
+section .sns2 ul li{float: left; margin-top: 18px; margin-right: 41px;}
+section .sns2 ul li:last-child{margin-right: 0;}
+section .sns2 ul li:first-child{margin-left: 34px;}
+section .btnB{clear: both; width: 100%; height: 36px; background-color: #81C147; color: #fff; margin-top: 23px; margin-bottom: 50px; font-size: 16px; font-weight: 300;}

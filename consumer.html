@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>버거귀족</title>
+    <!--<link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">-->
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/consumer.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="script/index.js"></script>
+    <script src="script/consumer.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <button type="button" class="menu">
+                <img src="images/index/menu.svg" alt="메뉴">
+            </button>
+            <h1><a href="index.html"><img src="images/index/logo.svg" alt="버거귀족"></a></h1>
+            <button type="button" class="login">로그인</button>
+        </header>
+         
+         <section>
+             <h2>고객센터</h2>
+             <div class="box1">
+                 <p>1599 - 1234</p>
+                 <p>평일 09:00 - 18:00 · 점심시간 12:00 - 13:00<br>주말 공휴일 휴무<br></p>
+                 <p>아래의 양식대로 불편한 점이나 문의 사항을<br>보내주시면 신속하게 안내해드리겠습니다.</p>
+             </div>
+             <div class="box2">
+                 <form action="#" method="get" name="txt">
+                     <label for="name">
+                         이름
+                         <input type="text" name="name" id="name">
+                     </label>
+                     <label for="email">
+                         이메일
+                         <input type="email" name="email" id="email">
+                     </label>
+                     <label for="tel">
+                         전화번호
+                         <input type="tel" name="tel" id="tel">
+                     </label>
+                     <textarea name="txt" id="txt" cols="30" rows="10"></textarea>
+                 </form>
+             </div>
+             <p class="p2">개인 정보 수집/이용에 대한 동의<br>수집 항목: 이름, 이메일, 전화번호<br>수집 목적: 서비스 이용에 따른 고객 문의, 불만처리 등<br>보유 및 이용 기간: 문의 처리 후 5년 간 보관<br>*그 밖의 사항은 개인정보 처리방침을 준수합니다.</p>
+             <form action="#" name="agree" method="get">
+             <label for="agree">
+                 <input type="checkbox" name="agree" id="agree">
+                 개인 정보 수집/이용에 동의합니다.
+             </label>
+             <button class="open">등록</button>
+             </form>
+         </section>
+         <div class="popUp">
+             <p>작성하신<br>문의 사항이 성공적으로<br>접수 되었습니다.</p>
+             <button>확인</button>
+         </div>
+    </div>
+        <footer>
+            <div class="capy">
+                <p>(주) 버거 귀족</p>
+                <p>대표자: 김귀족</p>
+                <p>주소: 서울시 관악구 신림동</p>
+                <p>사업자 등록 번호 : 111-11-1111</p>
+                <p>전화 번호 : 1599-1111</p>
+            </div>
+            <button><img src="images/index/scrolltop.svg" alt="위로가기"></button>
+        </footer>
+    
+    <div class="drawer">
+       <div class="dbox">
+        <ul class="main">
+            <li><a href="product2.html">메뉴</a>
+            </li>
+            <li><a href="event.html">이벤트</a></li>
+            <li><a href="company.html">매장 안내</a></li>
+            <li><a href="mypage.html">마이페이지</a></li>
+            <li><a href="consumer.html">고객 센터</a></li>
+        </ul>
+        <button><i class='fas fa-times'></i></button>
+        </div>
+    </div>
+    
+</body>
+
+</html>

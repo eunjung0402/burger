@@ -1,0 +1,7 @@
+#wrap h2{padding-bottom: 17px; font-size: 20px; font-weight: 400;}
+#wrap h3{font-size: 18px; font-weight: 400; text-align: left; margin-left: 35px; margin-bottom: 10px;}
+#wrap iframe{margin-bottom: 33px;}
+#wrap .Cbox{width: 350px; height: 145px; background-color: #81C147; color: #fff; margin: auto; padding: 24px; box-sizing: border-box; text-align: left; margin-bottom: 33px;}
+#wrap ul{overflow: auto; width: 340px; margin: auto;}
+#wrap ul li{float: left; padding-right: 9%; font-size: 16px; font-weight: 400; margin-bottom: 23px;}
+#wrap ul li:last-child{padding-right: 0;}

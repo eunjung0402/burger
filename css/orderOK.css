@@ -1,0 +1,7 @@
+.box1 table td:last-child button{outline: 0;}
+
+.box2 ul{padding: 0; width: 100%;padding-top: 20px; padding-bottom: 20px;}
+.box2 ul li{font-size: 18px; font-weight: 400;}
+.box2 ul li span{display: inline-block; padding-bottom: 13px;}
+.box2 ul li span:first-child{width: 90px;}
+.box2 ul li span:last-child{width: 230px; text-align: left; padding-left: 10px;}

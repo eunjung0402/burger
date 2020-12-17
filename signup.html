@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>버거귀족</title>
+    <!--<link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">-->
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="https://swiperjs.com/package/swiper-bundle.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="script/index.js"></script>
+    <script src="script/login.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="log">
+            <h1><a href="index.html"><img src="images/index/logo.svg" alt="버거귀족"></a></h1>
+            <button type="button" class="back"><img src="images/login/back.svg" alt="뒤로가기"></button>
+        </header>
+        <section>
+            <h2>회원가입</h2>
+            <form action="#">
+                <div class="input">
+                <label>아이디
+                    <input type="text" name="userId" id="userId">
+                    </label>
+                <label>비밀번호
+                    <input type="password" name="userPw" id="userPw">
+                </label>
+                <label>비밀번호 확인
+                    <input type="password" name="userPw2" id="userPw2">
+                </label>
+                <label>이름
+                    <input type="text" name="name" id="name">
+                </label>
+                <label>전화 번호
+                    <input type="text" name="tel" id="tel">
+                </label>
+                <label>주소
+                    <input type="text" name="address" id="address">
+                </label>
+                <label>생년월일
+                    <input type="text" name="year" id="year">
+                </label>
+                </div>
+                <div class="check">
+                <label>
+                    <input type="radio" name="agree" id="agree1">
+                    이용 약관에 동의 합니다.
+                </label>
+                <label>
+                    <input type="radio" name="agree" id="agree2">
+                    개인 정보 취급 방침에 동의 합니다.
+                </label>
+                <label>
+                    <input type="radio" name="agree" id="agree3">
+                    마케팅 정보 수신에 동의 합니다.
+                </label>
+                <label>
+                    <input type="radio" name="agree" id="agree4" checked>
+                    모두 동의합니다.
+                </label>
+                </div>
+                </form>
+                <button class="btn3">가입하기</button>
+        </section>
+        <footer>
+            <div class="capy">
+                <p>(주) 버거 귀족</p>
+                <p>대표자: 김귀족</p>
+                <p>주소: 서울시 관악구 신림동</p>
+                <p>사업자 등록 번호 : 111-11-1111</p>
+                <p>전화 번호 : 1599-1111</p>
+            </div>
+            <button><img src="images/index/scrolltop.svg" alt="위로가기"></button>
+        </footer>
+    </div>
+
+</body>
+
+</html>

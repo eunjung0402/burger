@@ -1,0 +1,7 @@
+header .back{margin-top: 23px; padding: 10px; margin-right: -10%;}
+section{}
+section h2{padding-bottom: 17px; font-size: 20px; font-weight: 400;}
+section p{text-align: left; margin-left: 37px; font-weight: 400;}
+section button{width: 330px; height: 36px; background-color: #81C147; color: #fff; font-size: 16px; font-weight: 100; margin-bottom: 21px; margin-top: 10px;}
+
+.drawer .main li a{text-align: left;}
