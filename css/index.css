@@ -7,11 +7,11 @@
 .fastOrder .box{position: relative; height: 200px; width: 130px;}
 .fastOrder .box .pwrap{position: absolute; bottom: 53px; left: 30px;}
 .fastOrder h2{}
-.fastOrder h3{font-weight: 300;}
+.fastOrder h3{font-weight: 300; cursor: pointer;}
 .fastOrder .swiper-container .box p{font-size: 15px; font-weight: 300;}
 .fastOrder .swiper-container .box .btnOder {background-color: #81C147; padding: 5px; font-size: 13px;margin-top: 10px; color: #fff;}
 .fastOrder .lists{clear: both;}
-.fastOrder .lists .btnOder{position: absolute; bottom: 20px; left: 30px;}
+.fastOrder .lists .btnOder{position: absolute; bottom: 20px; left: 30px; cursor: pointer;}
 .fastOrder .lists .set{padding: 20px 0;}
 .fastOrder .lists .one{/*display:none;*/ padding: 20px 0;}
 .fastOrder .lists .side{/*display:none;*/ padding: 20px 0;}
